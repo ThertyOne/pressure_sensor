@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="images/case.jpg" alt="Enclosure View" width="45%" />
-  <img src="images/sensor.jpg" alt="Pirani Sensor" width="45%" />
+  <img src="images/sensor.jpg" alt="Pirani Sensor" width="22%" />
 </p>
 
 ## Project Overview
