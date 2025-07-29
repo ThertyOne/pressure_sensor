@@ -79,6 +79,7 @@ The code includes:
 | Torr      | 5.625                |
 | mTorr     | 2.625                |
 | micron    | 2.625                |
+
 | Component       | Connection                   |
 |----------------|------------------------------|
 | Sensor Output   | Analog input A0 (via divider)|
