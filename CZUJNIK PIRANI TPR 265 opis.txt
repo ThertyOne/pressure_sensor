@@ -1,0 +1,24 @@
+CZUJNIK PIRANI TPR 265
+
+Zasilanie: 15 V
+
+Sygnał wyjściowy napięciowy: 0 - 10,3 V
+Sygnał wyjściowy roboczy: 2,2 - 8,5 V
+Charakterystyka logarytmiczna (napięcie maleje wraz ze wzrostem ciśnienia)
+
+Zakres pomiarowy ciśnień: 
+3.75×10^-4 Torr < p < 750 Torr
+5×10^-2 Pa < p < 1×10^5 Pa
+
+5*10^-4 mbar -> ok. 8,5 V			1	
+1000 mbar    -> ok. 2,2 V
+
+
+Odczyt z ciśnieniem w pomieszczeniu: 8.36 V -> 3.44 V po dzielniku
+
+Pomiar przy pomocy Arduino poprzez ADC (max 5V) tylko poprzez dzielnik napięcia:
+R1 = 6.82 k
+R2 = 4.7 k
+
+Relacja napięcie-cisnienie: logarithmic, increase 1.0 V / decade
+(→ Appendix A)
