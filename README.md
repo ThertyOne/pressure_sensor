@@ -34,18 +34,14 @@ Since the Arduino ADC operates in the 0–5V range, a voltage divider was used t
   - R2 = 4.7 kΩ  
 - **Divider ratio (measured)**: ≈ 2.435  
 - **Formula**:  
-  \[
-  V_{in} = V_{out} \times \left(1 + \frac{R1}{R2}\right)
-  \]
+  $$V_{in} = V_{out} \times \left(1 + \frac{R1}{R2}\right)$$
 
 ## Pressure-Voltage Relation
 
 - Logarithmic response:  
   - **~1.0 V per decade** of pressure  
 - Conversion based on formula:  
-  \[
-  p = 10^{(V_{sensor} - C)}
-  \]
+  $$p = 10^{(V_{sensor} - C)}$$
   Where `C` is a calibration constant (depends on unit and gas type).
 
 ## Arduino Implementation
@@ -83,9 +79,6 @@ The code includes:
 | Torr      | 5.625                |
 | mTorr     | 2.625                |
 | micron    | 2.625                |
-
-## Wiring Summary
-
 | Component       | Connection                   |
 |----------------|------------------------------|
 | Sensor Output   | Analog input A0 (via divider)|
