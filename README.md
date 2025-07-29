@@ -41,9 +41,7 @@ Since the Arduino ADC operates in the 0–5V range, a voltage divider was used t
 - Logarithmic response:  
   - **~1.0 V per decade** of pressure  
 - Conversion based on formula:  
-  $$
-  p = 10^{(V_{sensor} - C)}
-  $$
+  $$p = 10^{(V_{sensor} - C)}$$
   Where `C` is a calibration constant (depends on unit and gas type).
 
 ## Arduino Implementation
