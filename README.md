@@ -34,9 +34,9 @@ Since the Arduino ADC operates in the 0–5V range, a voltage divider was used t
   - R2 = 4.7 kΩ  
 - **Divider ratio (measured)**: ≈ 2.435  
 - **Formula**:  
-  \[
+  \
   V_{in} = V_{out} \times \left(1 + \frac{R1}{R2}\right)
-  \]
+  \
 
 ## Pressure-Voltage Relation
 
