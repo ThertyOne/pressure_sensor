@@ -1,7 +1,9 @@
 # Instrumentation for Pirani Vacuum Gauge TPR 265
 
-![Enclosure View](images/case.jpg)
-![Pirani Sensor](images/sensor.jpg)
+<p align="center">
+  <img src="images/case.jpg" alt="Enclosure View" width="45%" />
+  <img src="images/sensor.jpg" alt="Pirani Sensor" width="45%" />
+</p>
 
 ## Project Overview
 
